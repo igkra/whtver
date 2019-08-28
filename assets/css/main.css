@@ -8595,3 +8595,6 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+.ml-20 {
+	margin-left: 20px;
+}
