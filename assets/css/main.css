@@ -2110,7 +2110,7 @@ input, select, textarea {
 		line-height: 3.75em;
 		border-radius: 3.75em;
 		padding: 0 2.5em;
-		text-overflow: ellipsis;
+		text-overflow: clip;
 		overflow: hidden;
 	}
 
@@ -3541,7 +3541,7 @@ input, select, textarea {
 				-webkit-flex-direction: column-reverse;
 				-ms-flex-direction: column-reverse;
 				flex-direction: column-reverse;
-				text-align: center;
+				text-align: left;
 			}
 
 				.banner.style1 .content {
