@@ -2108,7 +2108,7 @@ input, select, textarea {
 		max-width: 20rem;
 		height: 3.75em;
 		line-height: 3.75em;
-		border-radius: 3.75em;
+		border-radius: 5px;
 		padding: 0 2.5em;
 		text-overflow: clip;
 		overflow: hidden;
@@ -2212,6 +2212,7 @@ input, select, textarea {
 			background-color: #000000;
 			box-shadow: none;
 			color: #ffffff !important;
+			padding: inherit;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2310,6 +2311,16 @@ input, select, textarea {
 		font-weight: 400;
 		margin: 0 0 1rem 0;
 	}
+
+	
+   @media screen and (min-width: 375px) { 
+	label {
+   margin: 0;
+   }
+}
+
+
+		
 
 	input[type="text"],
 	input[type="password"],
